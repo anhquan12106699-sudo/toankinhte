@@ -1,1 +1,0 @@
-(function(){try{var u=location.origin+location.pathname;document.getElementById('seoCanonical').href=u;document.getElementById('seoOgUrl').content=u;var b=location.origin+location.pathname.replace(/[^\/]*$/,'');['seoOgImage','seoTwImage'].forEach(function(i){var e=document.getElementById(i);if(e)e.content=b+'og-cover.jpg';});}catch(e){}})();
